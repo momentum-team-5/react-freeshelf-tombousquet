@@ -1,0 +1,58 @@
+.book-container {
+  padding: 5px;
+}
+
+h1 {
+  color: rgb(255, 255, 139);
+  background-color: rgb(0, 180, 180);
+  padding: 10px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.title {
+  font: bold;
+  padding: 3px;
+}
+
+.author {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 3px;
+}
+
+.description {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 3px;
+}
+
+.coverUrl {
+  padding: 3px;
+}
+
+.book {
+  display: flex;
+  padding: 10px;
+}
+
+.extraInfo {
+  color: black;
+}
+
+.book-words {
+  padding: 3px;
+}
+
+.url {
+  padding: 3px;
+}
+
+.publisher {
+  padding: 3px;
+}
+
+.publicationDate {
+  padding: 3px;
+}
