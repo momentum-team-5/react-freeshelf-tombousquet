@@ -8,11 +8,15 @@ export const BookItem = (props) => {
     <div className='book'>
       <div className='bookInfo'>
         <div className='book-words'>
-          <h2 className='title'> {book.title} </h2>
+          <div className='title'>
+            {book.title && <h2> {book.title} </h2>}
+          </div>
           <div className='author'>
             {book.author && <h3>Author: {book.author}</h3>}
           </div>
-          <div className='description'> {book.shortDescription} </div>
+          <div className='description'>
+            {book.shortDescription && <p>{book.shortDescription}</p>}
+          </div>
         </div>
         <button className='button' onClick={() => setShowMoreInfo(!showMoreInfo)}>
           Show {showMoreInfo ? 'Less' : 'More'} information
@@ -26,7 +30,9 @@ export const BookItem = (props) => {
             <div className='publicationDate'>
               {book.publicationDate && <h5>Publication Date: {book.publicationDate}</h5>}
             </div>
-            <div className='detailedDescription'> {book.detailedDescription} </div>
+            <div className='detailedDescription'>
+              {book.detailedDescription && <p>{book.detailedDescription}</p>}
+            </div>
           </div>
         )}
       </div>
