@@ -42,35 +42,3 @@ export const BookItem = (props) => {
     </div>
   )
 }
-
-/*
-export const BookDetail = () => {
-  return (
-    <div className='book-container'>
-      {books.map((book, key) => {
-        return (
-          <div className='book' key={key}>
-            <div className='extraInfo'>
-              <div className='url'> {book.url} </div>
-              <div className='publisher'> {book.publisher} </div>
-              <div className='publicationDate'> {book.publicationDate} </div>
-              <div className='detailedDescription'> {book.detailedDescription} </div>
-            </div>
-          </div>
-        )
-      })}
-    </div>
-  )
-}
-import react usestate
-const [showMoreInfo, setShowMoreInfo] = useState(false)
-let showHideInfo = 'Show more information'
-if (showMoreInfo) {
-  showHideInfo = 'Hide more information'
-}
-<div className='button'>
-              <button onClick={() => setShowMoreInfo(!showMoreInfo)}>
-                {showHideInfo}
-              </button>
-            </div>
-            */

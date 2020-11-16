@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
 import { books } from './books.js'
-
 import { BookItem } from './components/BookItem'
 
 function App () {
